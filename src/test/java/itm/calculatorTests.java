@@ -17,7 +17,7 @@ public class calculatorTests {
     @Test
     @DisplayName("Test for add function")
     void add(){
-        assertEquals(10, calc.add(5,5), "Expected value is 10 in add function");
+        assertEquals(13, calc.add(5,5), "Expected value is 10 in add function");
     }
 
     @Test
